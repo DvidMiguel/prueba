@@ -1,0 +1,63 @@
+ <!DOCTYPE html>
+ <html >
+ <head runat="server">
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <title>HTML5 y CSS Formulario de contacto</title> 
+ <link href="StyleSheet.css" rel="stylesheet" /> 
+ </head> 
+ <body>
+  <form class="contact_form" action="validacion.php" id="contact_form" runat="server" method="post"> 
+  	<div> 
+  		<ul>
+  			<li> 
+  				<h2>A.INFORMACION PERSONAL</h2> 
+  				<span class="required_notification">* Datos requeridos</span> 
+  			</li>
+  			<li> 
+  				<label for="name">DUI:</label> 
+  				<input type="text" placeholder="Ejem: 03656250-5" name="dui"  /> 
+  			</li> 
+  			<li> 
+  				<label for="name">NIT:</label> 
+  				<input type="text" placeholder="Ejem: 1234-123456-123" name="nit"  /> 
+  			</li>
+  			<li> 
+  				<label for="name">Primer Apellido:</label> 
+  				<input type="text" placeholder="Ejem: Martinez" name="primer_apellido"  /> 
+  			</li>
+  			<li> 
+  				<label for="name">Segundo Apellido:</label> 
+  				<input type="text" placeholder="Ejem: Roca" name="segundo_apellido"  /> 
+  			</li>
+  			<li> 
+  				<label for="name">Nombres:</label> 
+  				<input type="text" placeholder="Ejem: Raul" name="nombres"  /> 
+  			</li>
+  			<li> 
+  				<label for="name">Conocido por:</label> 
+  				<input type="text" placeholder="Ejem: Marcos" name="conocido_por"  /> 
+  			</li> 
+  			<li> 
+  				<label for="name">Fecha Nacimiento:</label> 
+  				<input type="date"  /> 
+  			</li>
+  			<li> 
+  				<label for="name">Ciudad de nacimiento:</label> 
+  				<input type="text" placeholder="Ejem: San Salvador" name="ciudad_nacimiento"  /> 
+  			</li>
+  			<li> 
+  				<label for="name">Profesion:</label> 
+  				<input type="text" placeholder="Ejem: Ingeniero" name="profesion"  /> 
+  			</li>
+  			<li> 
+  				<label for="name">Edad:</label> 
+  				<input type="text" placeholder="Ejem: Ingeniero" name="edad"  /> 
+  			</li>
+  			<li> 
+  				<button class="submit" type="submit" name="enviar">Enviar mensaje</button> 
+  			</li>  			 
+  		</ul> 
+  	</div> 
+  </form> 
+</body> 
+</html>
